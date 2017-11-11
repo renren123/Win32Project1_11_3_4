@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApplication.LoginFile.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication.LoginFile"
+        mc:Ignorable="d"
+        Title="Login" Height="300" Width="500" WindowStyle="None" AllowsTransparency="True" BorderThickness="0">
+    <Window.Background>
+        <ImageBrush ImageSource="Img/bg.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Label FontSize="40" x:Name="softwareName" Content="R SoftWare" HorizontalAlignment="Center" Margin="137,31,137,0" VerticalAlignment="Top"/>
+        <Label FontSize="25"  x:Name="labelInfo"  Content="Start"  HorizontalAlignment="Center" HorizontalContentAlignment="Center"  VerticalAlignment="Top" Margin="0,193,1,0" Width="500" />
+        
+    </Grid>
+</Window>
